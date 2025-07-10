@@ -1,4 +1,3 @@
-Library yang dibutuhkan:
 streamlit
 pandas
 numpy
