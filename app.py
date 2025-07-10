@@ -7,9 +7,9 @@ import json
 # ==============================================================================
 # Konfigurasi Halaman dan Judul
 # ==============================================================================
-st.set_page_config(page_title="Prediksi Harga Airbnb (Advanced)", layout="wide")
+st.set_page_config(page_title="Prediksi Harga Airbnb di New York", layout="wide")
 
-st.title("Prediksi Harga Airbnb")
+st.title("Prediksi Harga Airbnb di New York")
 st.write("Aplikasi ini menggunakan input lokasi yang dinamis untuk prediksi yang lebih realistis.")
 st.write("Dirancang oleh: Joseph H. A. dan Cliff Jordan J. A.")
 
