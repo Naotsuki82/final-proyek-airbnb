@@ -79,7 +79,7 @@ with lat_col:
         max_value=lat_max,
         value=float(np.mean([lat_min, lat_max])),
         format="%.6f",
-        step=0.0001,
+        step=0.000001,
         key="lat_slider"
     )
 with lon_col:
@@ -89,7 +89,7 @@ with lon_col:
         max_value=lon_max,
         value=float(np.mean([lon_min, lon_max])),
         format="%.6f",
-        step=0.0001,
+        step=0.000001,
         key="lon_slider"
     )
 
