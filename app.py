@@ -94,9 +94,6 @@ with lon_col:
 
 st.divider()
 
-# --- CHECKPOINT DEBUGGING 1 ---
-st.info("Checkpoint 1: Script berhasil melewati bagian input lokasi.")
-
 # ==============================================================================
 # BAGIAN 2: INPUT DETAIL LAINNYA (DI DALAM FORM)
 # ==============================================================================
@@ -105,12 +102,8 @@ try:
     property_type_options = get_options_from_features("property_type_", all_scaler_features)
     host_neighbourhood_options = get_options_from_features("host_neighbourhood_", all_scaler_features)
     
-    # --- CHECKPOINT DEBUGGING 2 ---
-    st.info("Checkpoint 2: Opsi untuk dropdown berhasil dibuat. Memulai render form...")
     
     with st.form("property_details_form"):
-        # --- CHECKPOINT DEBUGGING 3 ---
-        st.info("Checkpoint 3: Berhasil masuk ke dalam blok form.")
         
         st.header("Langkah 3: Masukkan Detail Properti Lainnya")
         
