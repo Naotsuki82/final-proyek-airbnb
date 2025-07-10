@@ -9,8 +9,9 @@ import json
 # ==============================================================================
 st.set_page_config(page_title="Prediksi Harga Airbnb (Advanced)", layout="wide")
 
-st.title("Prediksi Harga Airbnb - Model Cerdas")
+st.title("Prediksi Harga Airbnb")
 st.write("Aplikasi ini menggunakan input lokasi yang dinamis untuk prediksi yang lebih realistis.")
+st.write("Dirancang oleh: Joseph H. A. dan Cliff Jordan J. A.")
 
 # ==============================================================================
 # Memuat Semua Aset yang Dibutuhkan (dengan Caching)
@@ -50,7 +51,7 @@ def get_options_from_features(prefix, features):
 # ==============================================================================
 # BAGIAN 1: INPUT LOKASI (DI LUAR FORM)
 # ==============================================================================
-st.header("Langkah 1: Pilih Lokasi Properti")
+st.header("1: Pilih Lokasi Properti")
 col1, col2 = st.columns(2)
 
 with col1:
@@ -61,14 +62,14 @@ with col2:
     neighbourhoods_in_borough = list(geo_data[selected_borough].keys())
     selected_neighbourhood = st.selectbox("Pilih Lingkungan", neighbourhoods_in_borough, key="neighbourhood_selector")
 
-st.write(f"Langkah 2: Sesuaikan lokasi presisi di dalam **{selected_neighbourhood}**:")
+st.header(f"2: Sesuaikan lokasi presisi di dalam **{selected_neighbourhood}**:")
 bounds = geo_data[selected_borough][selected_neighbourhood]
 
 lat_min, lat_max = float(bounds['lat_min']), float(bounds['lat_max'])
 lon_min, lon_max = float(bounds['lon_min']), float(bounds['lon_max'])
 
-if lat_min >= lat_max: lat_max = lat_min + 0.0001
-if lon_min >= lon_max: lon_max = lon_min + 0.0001
+if lat_min >= lat_max: lat_max = lat_min + 0.000001
+if lon_min >= lon_max: lon_max = lon_min + 0.000001
 
 lat_col, lon_col = st.columns(2)
 with lat_col:
@@ -95,7 +96,7 @@ with lon_col:
 st.divider()
 
 # ==============================================================================
-# BAGIAN 2: INPUT DETAIL LAINNYA (DI DALAM FORM)
+# BAGIAN 2: INPUT DETAIL LAINNYA
 # ==============================================================================
 try:
     room_type_options = ["Entire home/apt", "Private room", "Shared room"]
@@ -105,7 +106,7 @@ try:
     
     with st.form("property_details_form"):
         
-        st.header("Langkah 3: Masukkan Detail Properti Lainnya")
+        st.header("3: Masukkan Detail Properti Lainnya")
         
         st.subheader("Detail Utama Properti")
         d_col1, d_col2 = st.columns(2)
