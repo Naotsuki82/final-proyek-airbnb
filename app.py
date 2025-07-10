@@ -7,11 +7,10 @@ import json
 # ==============================================================================
 # Konfigurasi Halaman dan Judul
 # ==============================================================================
-st.set_page_config(page_title="Prediksi Harga Airbnb di New York", layout="wide")
+st.set_page_config(page_title="Prediksi Harga Airbnb (Advanced)", layout="wide")
 
-st.title("Prediksi Harga Airbnb di New York")
+st.title("Prediksi Harga Airbnb - Model Cerdas")
 st.write("Aplikasi ini menggunakan input lokasi yang dinamis untuk prediksi yang lebih realistis.")
-st.write("Dirancang oleh: Joseph H. A. dan Cliff Jordan J. A.")
 
 # ==============================================================================
 # Memuat Semua Aset yang Dibutuhkan (dengan Caching)
@@ -28,12 +27,17 @@ def load_resources():
             geo_data = json.load(f)
         return model, scaler, model_features, all_scaler_features, geo_data
     except FileNotFoundError as e:
-        st.error(f"File tidak ditemukan: {e.filename}. Pastikan semua file (.joblib, .json) ada di folder yang sama.")
+        st.error(f"File tidak ditemukan: {e.filename}. Pastikan semua file (.joblib, .json) ada di repositori GitHub Anda.")
+        return None, None, None, None, None
+    except Exception as e:
+        st.error(f"Terjadi error saat memuat file aset: {e}")
+        st.error("Ini bisa terjadi karena inkompatibilitas versi library (misalnya scikit-learn) antara lingkungan lokal dan Streamlit Cloud. Periksa file requirements.txt Anda.")
         return None, None, None, None, None
 
 model, scaler, model_features_136, all_scaler_features, geo_data = load_resources()
 
 if not all([model, scaler, model_features_136, all_scaler_features, geo_data]):
+    st.info("Aplikasi berhenti karena aset tidak berhasil dimuat.")
     st.stop()
 
 # ==============================================================================
@@ -46,7 +50,7 @@ def get_options_from_features(prefix, features):
 # ==============================================================================
 # BAGIAN 1: INPUT LOKASI (DI LUAR FORM)
 # ==============================================================================
-st.header("1: Pilih Lokasi Properti")
+st.header("Langkah 1: Pilih Lokasi Properti")
 col1, col2 = st.columns(2)
 
 with col1:
@@ -57,7 +61,7 @@ with col2:
     neighbourhoods_in_borough = list(geo_data[selected_borough].keys())
     selected_neighbourhood = st.selectbox("Pilih Lingkungan", neighbourhoods_in_borough, key="neighbourhood_selector")
 
-st.header(f"2: Sesuaikan lokasi presisi di dalam **{selected_neighbourhood}**:")
+st.write(f"Langkah 2: Sesuaikan lokasi presisi di dalam **{selected_neighbourhood}**:")
 bounds = geo_data[selected_borough][selected_neighbourhood]
 
 lat_min, lat_max = float(bounds['lat_min']), float(bounds['lat_max'])
@@ -68,84 +72,97 @@ if lon_min >= lon_max: lon_max = lon_min + 0.0001
 
 lat_col, lon_col = st.columns(2)
 with lat_col:
-    # --- PERUBAHAN: Menambahkan parameter 'step' ---
     latitude = st.slider(
         "Latitude",
         min_value=lat_min,
         max_value=lat_max,
         value=float(np.mean([lat_min, lat_max])),
-        format="%.6f",  # Menambah presisi format
-        step=0.000001,     # Menentukan langkah pergerakan slider
+        format="%.6f",
+        step=0.0001,
         key="lat_slider"
     )
 with lon_col:
-    # --- PERUBAHAN: Menambahkan parameter 'step' ---
     longitude = st.slider(
         "Longitude",
         min_value=lon_min,
         max_value=lon_max,
         value=float(np.mean([lon_min, lon_max])),
-        format="%.6f",  # Menambah presisi format
-        step=0.000001,     # Menentukan langkah pergerakan slider
+        format="%.6f",
+        step=0.0001,
         key="lon_slider"
     )
 
 st.divider()
 
+# --- CHECKPOINT DEBUGGING 1 ---
+st.info("Checkpoint 1: Script berhasil melewati bagian input lokasi.")
+
 # ==============================================================================
 # BAGIAN 2: INPUT DETAIL LAINNYA (DI DALAM FORM)
 # ==============================================================================
-room_type_options = ["Entire home/apt", "Private room", "Shared room"]
-property_type_options = get_options_from_features("property_type_", all_scaler_features)
-host_neighbourhood_options = get_options_from_features("host_neighbourhood_", all_scaler_features)
-
-with st.form("property_details_form"):
-    st.header("3: Masukkan Detail Properti Lainnya")
+try:
+    room_type_options = ["Entire home/apt", "Private room", "Shared room"]
+    property_type_options = get_options_from_features("property_type_", all_scaler_features)
+    host_neighbourhood_options = get_options_from_features("host_neighbourhood_", all_scaler_features)
     
-    st.subheader("Detail Utama Properti")
-    d_col1, d_col2 = st.columns(2)
-    with d_col1:
-        accommodates = st.slider("Jumlah Tamu (Accommodates)", 1, 16, 2)
-        bedrooms = st.slider("Jumlah Kamar Tidur (Bedrooms)", 0, 10, 1)
-        beds = st.slider("Jumlah Tempat Tidur (Beds)", 0, 20, 1)
-    with d_col2:
-        minimum_nights = st.number_input("Minimum Malam Inap", min_value=1, value=1, step=1)
-        minimum_minimum_nights = st.number_input("Minimum dari Minimum Malam", min_value=1, value=1, step=1)
+    # --- CHECKPOINT DEBUGGING 2 ---
+    st.info("Checkpoint 2: Opsi untuk dropdown berhasil dibuat. Memulai render form...")
+    
+    with st.form("property_details_form"):
+        # --- CHECKPOINT DEBUGGING 3 ---
+        st.info("Checkpoint 3: Berhasil masuk ke dalam blok form.")
+        
+        st.header("Langkah 3: Masukkan Detail Properti Lainnya")
+        
+        st.subheader("Detail Utama Properti")
+        d_col1, d_col2 = st.columns(2)
+        with d_col1:
+            accommodates = st.slider("Jumlah Tamu (Accommodates)", 1, 16, 2)
+            bedrooms = st.slider("Jumlah Kamar Tidur (Bedrooms)", 0, 10, 1)
+            beds = st.slider("Jumlah Tempat Tidur (Beds)", 0, 20, 1)
+        with d_col2:
+            minimum_nights = st.number_input("Minimum Malam Inap", min_value=1, value=1, step=1)
+            minimum_minimum_nights = st.number_input("Minimum dari Minimum Malam", min_value=1, value=1, step=1)
 
-    with st.expander("Klik untuk Detail Tambahan"):
-        col3, col4, col5 = st.columns(3)
-        with col3:
-            st.markdown("**Tipe Properti & Ketersediaan**")
-            room_type = st.selectbox("Tipe Ruangan", room_type_options)
-            property_type = st.selectbox("Tipe Properti Spesifik", property_type_options)
-            availability_30 = st.slider("Ketersediaan (30 hari)", 0, 30, 15)
-            availability_60 = st.slider("Ketersediaan (60 hari)", 0, 60, 45)
-            availability_90 = st.slider("Ketersediaan (90 hari)", 0, 90, 75)
-            availability_365 = st.slider("Ketersediaan (365 hari)", 0, 365, 300)
-            availability_eoy = st.slider("Ketersediaan Akhir Tahun (eoy)", 0, 1, 0)
-        with col4:
-            st.markdown("**Informasi Host**")
-            host_total_listings_count = st.number_input("Total Listing Host", min_value=1, value=1)
-            host_is_superhost = st.radio("Apakah Host adalah Superhost?", ["Ya", "Tidak"], index=1)
-            host_neighbourhood = st.selectbox("Lingkungan Host", host_neighbourhood_options)
-            host_response_rate = st.slider("Tingkat Respons Host (%)", 0, 100, 95)
-            host_acceptance_rate = st.slider("Tingkat Penerimaan Host (%)", 0, 100, 90)
-            host_response_time = st.selectbox("Waktu Respons Host", ["within an hour", "Lainnya"])
-        with col5:
-            st.markdown("**Ulasan & Estimasi**")
-            number_of_reviews_l30d = st.slider("Jumlah Ulasan (30 hari terakhir)", 0, 10, 1)
-            review_scores_rating = st.slider("Skor Ulasan (Rating Keseluruhan)", 1.0, 5.0, 4.5, 0.1)
-            review_scores_cleanliness = st.slider("Skor Kebersihan", 1.0, 5.0, 4.5, 0.1)
-            review_scores_location = st.slider("Skor Lokasi", 1.0, 5.0, 4.5, 0.1)
-            estimated_occupancy_l365d = st.number_input("Estimasi Hari Terisi (1 thn)", value=150)
-            estimated_revenue_l365d = st.number_input("Estimasi Pendapatan (1 thn)", value=5000)
+        with st.expander("Klik untuk Detail Tambahan"):
+            col3, col4, col5 = st.columns(3)
+            with col3:
+                st.markdown("**Tipe Properti & Ketersediaan**")
+                room_type = st.selectbox("Tipe Ruangan", room_type_options)
+                property_type = st.selectbox("Tipe Properti Spesifik", property_type_options)
+                availability_30 = st.slider("Ketersediaan (30 hari)", 0, 30, 15)
+                availability_60 = st.slider("Ketersediaan (60 hari)", 0, 60, 45)
+                availability_90 = st.slider("Ketersediaan (90 hari)", 0, 90, 75)
+                availability_365 = st.slider("Ketersediaan (365 hari)", 0, 365, 300)
+                availability_eoy = st.slider("Ketersediaan Akhir Tahun (eoy)", 0, 1, 0)
+            with col4:
+                st.markdown("**Informasi Host**")
+                host_total_listings_count = st.number_input("Total Listing Host", min_value=1, value=1)
+                host_is_superhost = st.radio("Apakah Host adalah Superhost?", ["Ya", "Tidak"], index=1)
+                host_neighbourhood = st.selectbox("Lingkungan Host", host_neighbourhood_options)
+                host_response_rate = st.slider("Tingkat Respons Host (%)", 0, 100, 95)
+                host_acceptance_rate = st.slider("Tingkat Penerimaan Host (%)", 0, 100, 90)
+                host_response_time = st.selectbox("Waktu Respons Host", ["within an hour", "Lainnya"])
+            with col5:
+                st.markdown("**Ulasan & Estimasi**")
+                number_of_reviews_l30d = st.slider("Jumlah Ulasan (30 hari terakhir)", 0, 10, 1)
+                review_scores_rating = st.slider("Skor Ulasan (Rating Keseluruhan)", 1.0, 5.0, 4.5, 0.1)
+                review_scores_cleanliness = st.slider("Skor Kebersihan", 1.0, 5.0, 4.5, 0.1)
+                review_scores_location = st.slider("Skor Lokasi", 1.0, 5.0, 4.5, 0.1)
+                estimated_occupancy_l365d = st.number_input("Estimasi Hari Terisi (1 thn)", value=150)
+                estimated_revenue_l365d = st.number_input("Estimasi Pendapatan (1 thn)", value=5000)
 
-    submitted = st.form_submit_button("Prediksi Harga per Malam")
+        submitted = st.form_submit_button("Prediksi Harga per Malam")
+
+except Exception as e:
+    st.error(f"Terjadi error saat mencoba membuat form input: {e}")
+    st.error("Ini bisa terjadi jika ada masalah dengan salah satu widget atau data yang digunakan untuk membuat opsi dropdown.")
+
 
 # ==============================================================================
 # Logika Prediksi
 # ==============================================================================
-if submitted:
+if 'submitted' in locals() and submitted:
     if model and scaler and model_features_136 and all_scaler_features:
         input_data = pd.DataFrame(columns=all_scaler_features)
         input_data.loc[0] = 0
