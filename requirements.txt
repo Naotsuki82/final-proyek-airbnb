@@ -1,0 +1,7 @@
+Library yang dibutuhkan:
+streamlit
+pandas
+numpy
+scikit-learn
+xgboost
+joblib

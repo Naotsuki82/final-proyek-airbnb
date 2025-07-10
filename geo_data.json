@@ -1,0 +1,1350 @@
+{
+    "Bronx": {
+        "Allerton": {
+            "lat_min": 40.85813,
+            "lat_max": 40.87137,
+            "lon_min": -73.86801,
+            "lon_max": -73.84657
+        },
+        "Baychester": {
+            "lat_min": 40.86568,
+            "lat_max": 40.87751,
+            "lon_min": -73.85098,
+            "lon_max": -73.83403
+        },
+        "Belmont": {
+            "lat_min": 40.85243,
+            "lat_max": 40.8583829,
+            "lon_min": -73.89405,
+            "lon_max": -73.88169
+        },
+        "Bronxdale": {
+            "lat_min": 40.85172,
+            "lat_max": 40.85715642029084,
+            "lon_min": -73.86801085395868,
+            "lon_max": -73.85765
+        },
+        "Castle Hill": {
+            "lat_min": 40.81443173593194,
+            "lat_max": 40.82318,
+            "lon_min": -73.85325,
+            "lon_max": -73.84628
+        },
+        "City Island": {
+            "lat_min": 40.83793,
+            "lat_max": 40.85477,
+            "lon_min": -73.78975,
+            "lon_max": -73.78328
+        },
+        "Claremont Village": {
+            "lat_min": 40.83509,
+            "lat_max": 40.84479534062094,
+            "lon_min": -73.91429599374533,
+            "lon_max": -73.89798
+        },
+        "Clason Point": {
+            "lat_min": 40.80509,
+            "lat_max": 40.82037,
+            "lon_min": -73.86607,
+            "lon_max": -73.84952
+        },
+        "Co-op City": {
+            "lat_min": 40.8609106,
+            "lat_max": 40.87067,
+            "lon_min": -73.82683,
+            "lon_max": -73.82023
+        },
+        "Concourse": {
+            "lat_min": 40.81896,
+            "lat_max": 40.83664,
+            "lon_min": -73.92911,
+            "lon_max": -73.91801
+        },
+        "Concourse Village": {
+            "lat_min": 40.81876,
+            "lat_max": 40.83582,
+            "lon_min": -73.92691,
+            "lon_max": -73.90872378152035
+        },
+        "Country Club": {
+            "lat_min": 40.84121,
+            "lat_max": 40.8456,
+            "lon_min": -73.82552589410301,
+            "lon_max": -73.8149224
+        },
+        "East Morrisania": {
+            "lat_min": 40.82871,
+            "lat_max": 40.83928,
+            "lon_min": -73.89320216260595,
+            "lon_max": -73.88358
+        },
+        "Eastchester": {
+            "lat_min": 40.87799048021188,
+            "lat_max": 40.88673,
+            "lon_min": -73.84175232105518,
+            "lon_max": -73.81851
+        },
+        "Edenwald": {
+            "lat_min": 40.87941,
+            "lat_max": 40.89297750045713,
+            "lon_min": -73.84536,
+            "lon_max": -73.83274933247426
+        },
+        "Fieldston": {
+            "lat_min": 40.885213121532935,
+            "lat_max": 40.89711,
+            "lon_min": -73.90710728021786,
+            "lon_max": -73.89652
+        },
+        "Fordham": {
+            "lat_min": 40.851568,
+            "lat_max": 40.87083,
+            "lon_min": -73.90443,
+            "lon_max": -73.88665
+        },
+        "Highbridge": {
+            "lat_min": 40.82979,
+            "lat_max": 40.84184,
+            "lon_min": -73.93136,
+            "lon_max": -73.92319625832828
+        },
+        "Hunts Point": {
+            "lat_min": 40.81177392315022,
+            "lat_max": 40.81946996980854,
+            "lon_min": -73.8968,
+            "lon_max": -73.88546
+        },
+        "Kingsbridge": {
+            "lat_min": 40.86209,
+            "lat_max": 40.88756,
+            "lon_min": -73.91226,
+            "lon_max": -73.89034275819702
+        },
+        "Longwood": {
+            "lat_min": 40.81182,
+            "lat_max": 40.828,
+            "lon_min": -73.91194,
+            "lon_max": -73.88633
+        },
+        "Melrose": {
+            "lat_min": 40.81743,
+            "lat_max": 40.8245,
+            "lon_min": -73.92135,
+            "lon_max": -73.91269624880499
+        },
+        "Morris Heights": {
+            "lat_min": 40.84576,
+            "lat_max": 40.8531,
+            "lon_min": -73.92394,
+            "lon_max": -73.91066
+        },
+        "Morris Park": {
+            "lat_min": 40.84537,
+            "lat_max": 40.85713,
+            "lon_min": -73.86482,
+            "lon_max": -73.83881
+        },
+        "Morrisania": {
+            "lat_min": 40.82424,
+            "lat_max": 40.8337987355482,
+            "lon_min": -73.91316,
+            "lon_max": -73.89533
+        },
+        "Mott Haven": {
+            "lat_min": 40.80635,
+            "lat_max": 40.81611,
+            "lon_min": -73.92987687226892,
+            "lon_max": -73.90733
+        },
+        "Mount Eden": {
+            "lat_min": 40.8381,
+            "lat_max": 40.84345,
+            "lon_min": -73.92131,
+            "lon_max": -73.91231
+        },
+        "Mount Hope": {
+            "lat_min": 40.84482522477633,
+            "lat_max": 40.85283,
+            "lon_min": -73.91098111867905,
+            "lon_max": -73.90241
+        },
+        "North Riverdale": {
+            "lat_min": 40.9031966657953,
+            "lat_max": 40.91139,
+            "lon_min": -73.9038,
+            "lon_max": -73.89677
+        },
+        "Norwood": {
+            "lat_min": 40.86909,
+            "lat_max": 40.88345,
+            "lon_min": -73.88701,
+            "lon_max": -73.87111
+        },
+        "Olinville": {
+            "lat_min": 40.87953,
+            "lat_max": 40.88472,
+            "lon_min": -73.86849,
+            "lon_max": -73.86267
+        },
+        "Parkchester": {
+            "lat_min": 40.82894,
+            "lat_max": 40.84136,
+            "lon_min": -73.87709,
+            "lon_max": -73.85539
+        },
+        "Pelham Bay": {
+            "lat_min": 40.8440447,
+            "lat_max": 40.85587,
+            "lon_min": -73.84008,
+            "lon_max": -73.8284
+        },
+        "Pelham Gardens": {
+            "lat_min": 40.85722,
+            "lat_max": 40.86877,
+            "lon_min": -73.85177310000002,
+            "lon_max": -73.83468
+        },
+        "Port Morris": {
+            "lat_min": 40.80138,
+            "lat_max": 40.8100294,
+            "lon_min": -73.93105,
+            "lon_max": -73.91363
+        },
+        "Riverdale": {
+            "lat_min": 40.8838995,
+            "lat_max": 40.89802,
+            "lon_min": -73.91363,
+            "lon_max": -73.90886
+        },
+        "Schuylerville": {
+            "lat_min": 40.83196,
+            "lat_max": 40.84356426390629,
+            "lon_min": -73.8377,
+            "lon_max": -73.82708
+        },
+        "Soundview": {
+            "lat_min": 40.81965,
+            "lat_max": 40.82889302850651,
+            "lon_min": -73.88204,
+            "lon_max": -73.8596
+        },
+        "Spuyten Duyvil": {
+            "lat_min": 40.87975619569378,
+            "lat_max": 40.88489,
+            "lon_min": -73.91825,
+            "lon_max": -73.91129
+        },
+        "Throgs Neck": {
+            "lat_min": 40.80903,
+            "lat_max": 40.83488732454406,
+            "lon_min": -73.83645,
+            "lon_max": -73.80338
+        },
+        "Tremont": {
+            "lat_min": 40.84041,
+            "lat_max": 40.8485,
+            "lon_min": -73.89664,
+            "lon_max": -73.88624133842605
+        },
+        "Unionport": {
+            "lat_min": 40.82451,
+            "lat_max": 40.8360052,
+            "lon_min": -73.859,
+            "lon_max": -73.8399985
+        },
+        "University Heights": {
+            "lat_min": 40.85569,
+            "lat_max": 40.86101705703034,
+            "lon_min": -73.91706640359811,
+            "lon_max": -73.9041767
+        },
+        "Van Nest": {
+            "lat_min": 40.83988940119247,
+            "lat_max": 40.84865,
+            "lon_min": -73.86995,
+            "lon_max": -73.86173
+        },
+        "Wakefield": {
+            "lat_min": 40.88332,
+            "lat_max": 40.90591872969646,
+            "lon_min": -73.86499,
+            "lon_max": -73.83951172737014
+        },
+        "West Farms": {
+            "lat_min": 40.83922250615316,
+            "lat_max": 40.8416636473708,
+            "lon_min": -73.88460785846165,
+            "lon_max": -73.88043
+        },
+        "Westchester Square": {
+            "lat_min": 40.836998384015445,
+            "lat_max": 40.84518,
+            "lon_min": -73.84873,
+            "lon_max": -73.8455
+        },
+        "Williamsbridge": {
+            "lat_min": 40.86971,
+            "lat_max": 40.88488730830268,
+            "lon_min": -73.8668,
+            "lon_max": -73.84934
+        },
+        "Woodlawn": {
+            "lat_min": 40.89699363545297,
+            "lat_max": 40.90130974717979,
+            "lon_min": -73.87473683798306,
+            "lon_max": -73.86135573584299
+        }
+    },
+    "Brooklyn": {
+        "Bath Beach": {
+            "lat_min": 40.59832911104788,
+            "lat_max": 40.61216,
+            "lon_min": -74.01652349999999,
+            "lon_max": -73.99594826100589
+        },
+        "Bay Ridge": {
+            "lat_min": 40.61991,
+            "lat_max": 40.64055,
+            "lon_min": -74.03832811304855,
+            "lon_max": -74.01745741891088
+        },
+        "Bedford-Stuyvesant": {
+            "lat_min": 40.6763,
+            "lat_max": 40.70026346826369,
+            "lon_min": -73.96094,
+            "lon_max": -73.90589
+        },
+        "Bensonhurst": {
+            "lat_min": 40.60296,
+            "lat_max": 40.62217,
+            "lon_min": -74.00691,
+            "lon_max": -73.97332
+        },
+        "Bergen Beach": {
+            "lat_min": 40.62047,
+            "lat_max": 40.62966,
+            "lon_min": -73.91670854537114,
+            "lon_max": -73.9036193715479
+        },
+        "Boerum Hill": {
+            "lat_min": 40.68209,
+            "lat_max": 40.69042,
+            "lon_min": -73.99216,
+            "lon_max": -73.9788
+        },
+        "Borough Park": {
+            "lat_min": 40.60971,
+            "lat_max": 40.64793,
+            "lon_min": -74.00574,
+            "lon_max": -73.97405
+        },
+        "Brighton Beach": {
+            "lat_min": 40.57393809535928,
+            "lat_max": 40.5838782,
+            "lon_min": -73.9689362,
+            "lon_max": -73.95372009277344
+        },
+        "Brooklyn Heights": {
+            "lat_min": 40.69003,
+            "lat_max": 40.70207,
+            "lon_min": -73.99964571199811,
+            "lon_max": -73.99068
+        },
+        "Brownsville": {
+            "lat_min": 40.65391,
+            "lat_max": 40.67605,
+            "lon_min": -73.92496378146254,
+            "lon_max": -73.89942249556492
+        },
+        "Bushwick": {
+            "lat_min": 40.68128506031839,
+            "lat_max": 40.70834,
+            "lon_min": -73.94112299135811,
+            "lon_max": -73.90309
+        },
+        "Canarsie": {
+            "lat_min": 40.6275,
+            "lat_max": 40.65530886288491,
+            "lon_min": -73.91976,
+            "lon_max": -73.88187
+        },
+        "Carroll Gardens": {
+            "lat_min": 40.67416,
+            "lat_max": 40.68616028481485,
+            "lon_min": -74.00267,
+            "lon_max": -73.98941945561215
+        },
+        "Clinton Hill": {
+            "lat_min": 40.68036238449029,
+            "lat_max": 40.69757,
+            "lon_min": -73.97008,
+            "lon_max": -73.9583509480109
+        },
+        "Cobble Hill": {
+            "lat_min": 40.68514,
+            "lat_max": 40.69073,
+            "lon_min": -73.99979,
+            "lon_max": -73.99051
+        },
+        "Columbia St": {
+            "lat_min": 40.68114,
+            "lat_max": 40.68944,
+            "lon_min": -74.00516615051728,
+            "lon_max": -73.99935
+        },
+        "Coney Island": {
+            "lat_min": 40.57417379301927,
+            "lat_max": 40.5806,
+            "lon_min": -74.00268,
+            "lon_max": -73.98274363887826
+        },
+        "Crown Heights": {
+            "lat_min": 40.66358,
+            "lat_max": 40.68058,
+            "lon_min": -73.96398825209151,
+            "lon_max": -73.90974
+        },
+        "Cypress Hills": {
+            "lat_min": 40.6755,
+            "lat_max": 40.69067,
+            "lon_min": -73.90785681527194,
+            "lon_max": -73.86188899999999
+        },
+        "DUMBO": {
+            "lat_min": 40.70149,
+            "lat_max": 40.70536,
+            "lon_min": -73.98958431534423,
+            "lon_max": -73.98484
+        },
+        "Downtown Brooklyn": {
+            "lat_min": 40.68888,
+            "lat_max": 40.70142,
+            "lon_min": -73.99134,
+            "lon_max": -73.98111
+        },
+        "Dyker Heights": {
+            "lat_min": 40.61732,
+            "lat_max": 40.63058,
+            "lon_min": -74.01635,
+            "lon_max": -74.00280869376317
+        },
+        "East Flatbush": {
+            "lat_min": 40.6327,
+            "lat_max": 40.66522987577487,
+            "lon_min": -73.95245,
+            "lon_max": -73.91161
+        },
+        "East New York": {
+            "lat_min": 40.65305,
+            "lat_max": 40.6794,
+            "lon_min": -73.90063,
+            "lon_max": -73.8573093
+        },
+        "Flatbush": {
+            "lat_min": 40.62895,
+            "lat_max": 40.65508,
+            "lon_min": -73.97197,
+            "lon_max": -73.94825
+        },
+        "Flatlands": {
+            "lat_min": 40.61235,
+            "lat_max": 40.63306,
+            "lon_min": -73.94687,
+            "lon_max": -73.91814
+        },
+        "Fort Greene": {
+            "lat_min": 40.68232,
+            "lat_max": 40.69806,
+            "lon_min": -73.98227,
+            "lon_max": -73.96818
+        },
+        "Fort Hamilton": {
+            "lat_min": 40.611952817167854,
+            "lat_max": 40.62321,
+            "lon_min": -74.03886773483457,
+            "lon_max": -74.023895
+        },
+        "Gerritsen Beach": {
+            "lat_min": 40.58994,
+            "lat_max": 40.5915,
+            "lon_min": -73.92946,
+            "lon_max": -73.92364
+        },
+        "Gowanus": {
+            "lat_min": 40.66619,
+            "lat_max": 40.68489,
+            "lon_min": -73.99594,
+            "lon_max": -73.98095
+        },
+        "Gravesend": {
+            "lat_min": 40.58482,
+            "lat_max": 40.60878,
+            "lon_min": -73.99922,
+            "lon_max": -73.96776
+        },
+        "Greenpoint": {
+            "lat_min": 40.719,
+            "lat_max": 40.73876,
+            "lon_min": -73.96153908222914,
+            "lon_max": -73.93664
+        },
+        "Kensington": {
+            "lat_min": 40.62989,
+            "lat_max": 40.64699,
+            "lon_min": -73.98302,
+            "lon_max": -73.96867
+        },
+        "Manhattan Beach": {
+            "lat_min": 40.57653,
+            "lat_max": 40.58151035632298,
+            "lon_min": -73.95341659297002,
+            "lon_max": -73.93994
+        },
+        "Midwood": {
+            "lat_min": 40.61013,
+            "lat_max": 40.6306,
+            "lon_min": -73.97448589999999,
+            "lon_max": -73.9450979
+        },
+        "Mill Basin": {
+            "lat_min": 40.606,
+            "lat_max": 40.61765,
+            "lon_min": -73.92248,
+            "lon_max": -73.91244
+        },
+        "Navy Yard": {
+            "lat_min": 40.69829,
+            "lat_max": 40.70282490683178,
+            "lon_min": -73.98001307760616,
+            "lon_max": -73.97559
+        },
+        "Park Slope": {
+            "lat_min": 40.66538,
+            "lat_max": 40.68383,
+            "lon_min": -73.98821,
+            "lon_max": -73.97132
+        },
+        "Prospect Heights": {
+            "lat_min": 40.67252,
+            "lat_max": 40.68292,
+            "lon_min": -73.97561859999999,
+            "lon_max": -73.96288
+        },
+        "Prospect-Lefferts Gardens": {
+            "lat_min": 40.65433,
+            "lat_max": 40.66411,
+            "lon_min": -73.96284,
+            "lon_max": -73.94038
+        },
+        "Red Hook": {
+            "lat_min": 40.67353,
+            "lat_max": 40.68177,
+            "lon_min": -74.01691,
+            "lon_max": -74.00194
+        },
+        "Sea Gate": {
+            "lat_min": 40.57549871191151,
+            "lat_max": 40.57931,
+            "lon_min": -74.01229,
+            "lon_max": -74.00455902755625
+        },
+        "Sheepshead Bay": {
+            "lat_min": 40.58331189390447,
+            "lat_max": 40.61021,
+            "lon_min": -73.96621,
+            "lon_max": -73.93191
+        },
+        "South Slope": {
+            "lat_min": 40.66006630920411,
+            "lat_max": 40.66979,
+            "lon_min": -73.99229,
+            "lon_max": -73.97761388037364
+        },
+        "Sunset Park": {
+            "lat_min": 40.63493,
+            "lat_max": 40.665882,
+            "lon_min": -74.024666,
+            "lon_max": -73.98785
+        },
+        "Vinegar Hill": {
+            "lat_min": 40.69876,
+            "lat_max": 40.70417,
+            "lon_min": -73.98541,
+            "lon_max": -73.98064
+        },
+        "Williamsburg": {
+            "lat_min": 40.69887609350106,
+            "lat_max": 40.723041413623854,
+            "lon_min": -73.96918,
+            "lon_max": -73.92209
+        },
+        "Windsor Terrace": {
+            "lat_min": 40.6482,
+            "lat_max": 40.6605,
+            "lon_min": -73.98688,
+            "lon_max": -73.97182124592622
+        }
+    },
+    "Manhattan": {
+        "Battery Park City": {
+            "lat_min": 40.70469559808792,
+            "lat_max": 40.71812,
+            "lon_min": -74.01869,
+            "lon_max": -74.01439
+        },
+        "Chelsea": {
+            "lat_min": 40.73575,
+            "lat_max": 40.75527,
+            "lon_min": -74.00903,
+            "lon_max": -73.98839
+        },
+        "Chinatown": {
+            "lat_min": 40.71301,
+            "lat_max": 40.71895,
+            "lon_min": -74.00329,
+            "lon_max": -73.98949
+        },
+        "Civic Center": {
+            "lat_min": 40.71174,
+            "lat_max": 40.71715896078021,
+            "lon_min": -74.00795,
+            "lon_max": -73.99876
+        },
+        "East Harlem": {
+            "lat_min": 40.78353,
+            "lat_max": 40.81514,
+            "lon_min": -73.95394,
+            "lon_max": -73.9305
+        },
+        "East Village": {
+            "lat_min": 40.72047,
+            "lat_max": 40.7339622,
+            "lon_min": -73.99249,
+            "lon_max": -73.97234776378397
+        },
+        "Financial District": {
+            "lat_min": 40.70199,
+            "lat_max": 40.71215,
+            "lon_min": -74.01646,
+            "lon_max": -74.0014377
+        },
+        "Flatiron District": {
+            "lat_min": 40.73888826428037,
+            "lat_max": 40.744567852430976,
+            "lon_min": -73.99389,
+            "lon_max": -73.9835
+        },
+        "Gramercy": {
+            "lat_min": 40.73188,
+            "lat_max": 40.7394,
+            "lon_min": -73.99082,
+            "lon_max": -73.97859
+        },
+        "Greenwich Village": {
+            "lat_min": 40.72602,
+            "lat_max": 40.73676,
+            "lon_min": -74.00252,
+            "lon_max": -73.9913
+        },
+        "Harlem": {
+            "lat_min": 40.79800009538724,
+            "lat_max": 40.83356,
+            "lon_min": -73.95922798269565,
+            "lon_max": -73.9347
+        },
+        "Hell's Kitchen": {
+            "lat_min": 40.7526,
+            "lat_max": 40.77186,
+            "lon_min": -74.00121,
+            "lon_max": -73.98301
+        },
+        "Inwood": {
+            "lat_min": 40.85901,
+            "lat_max": 40.873458270124566,
+            "lon_min": -73.93507,
+            "lon_max": -73.91142
+        },
+        "Kips Bay": {
+            "lat_min": 40.7368592,
+            "lat_max": 40.74613,
+            "lon_min": -73.9843389,
+            "lon_max": -73.97175
+        },
+        "Little Italy": {
+            "lat_min": 40.71759,
+            "lat_max": 40.72054,
+            "lon_min": -73.99938173746905,
+            "lon_max": -73.99458
+        },
+        "Lower East Side": {
+            "lat_min": 40.7101544,
+            "lat_max": 40.7234,
+            "lon_min": -73.99451,
+            "lon_max": -73.97723
+        },
+        "Marble Hill": {
+            "lat_min": 40.87478,
+            "lat_max": 40.87778,
+            "lon_min": -73.91041,
+            "lon_max": -73.90721
+        },
+        "Midtown": {
+            "lat_min": 40.74153,
+            "lat_max": 40.76749,
+            "lon_min": -73.99298110438853,
+            "lon_max": -73.96064
+        },
+        "Morningside Heights": {
+            "lat_min": 40.80153,
+            "lat_max": 40.81662,
+            "lon_min": -73.96731,
+            "lon_max": -73.9557882260634
+        },
+        "Murray Hill": {
+            "lat_min": 40.743839,
+            "lat_max": 40.75153,
+            "lon_min": -73.98239,
+            "lon_max": -73.96888481574695
+        },
+        "NoHo": {
+            "lat_min": 40.72464,
+            "lat_max": 40.72923,
+            "lon_min": -73.99576,
+            "lon_max": -73.99104
+        },
+        "Nolita": {
+            "lat_min": 40.71997,
+            "lat_max": 40.72468,
+            "lon_min": -73.99754,
+            "lon_max": -73.99263922784806
+        },
+        "Roosevelt Island": {
+            "lat_min": 40.75125,
+            "lat_max": 40.76908,
+            "lon_min": -73.95979,
+            "lon_max": -73.94309298135883
+        },
+        "SoHo": {
+            "lat_min": 40.7187,
+            "lat_max": 40.72828,
+            "lon_min": -74.00993802424865,
+            "lon_max": -73.9961929321289
+        },
+        "Stuyvesant Town": {
+            "lat_min": 40.72693,
+            "lat_max": 40.73654569067552,
+            "lon_min": -73.9816,
+            "lon_max": -73.97172
+        },
+        "Theater District": {
+            "lat_min": 40.75413,
+            "lat_max": 40.76373582508873,
+            "lon_min": -73.99003,
+            "lon_max": -73.98053876228767
+        },
+        "Tribeca": {
+            "lat_min": 40.71168,
+            "lat_max": 40.72338,
+            "lon_min": -74.01279,
+            "lon_max": -74.00276
+        },
+        "Two Bridges": {
+            "lat_min": 40.70913,
+            "lat_max": 40.71299267074336,
+            "lon_min": -74.00025,
+            "lon_max": -73.992558351298
+        },
+        "Upper East Side": {
+            "lat_min": 40.75884,
+            "lat_max": 40.78673,
+            "lon_min": -73.97187,
+            "lon_max": -73.94339
+        },
+        "Upper West Side": {
+            "lat_min": 40.76778,
+            "lat_max": 40.80393,
+            "lon_min": -73.99329,
+            "lon_max": -73.95859387437682
+        },
+        "Washington Heights": {
+            "lat_min": 40.82948,
+            "lat_max": 40.86091,
+            "lon_min": -73.94943,
+            "lon_max": -73.92538
+        },
+        "West Village": {
+            "lat_min": 40.72848,
+            "lat_max": 40.741539269644704,
+            "lon_min": -74.01052088945372,
+            "lon_max": -73.99758
+        }
+    },
+    "Queens": {
+        "Arverne": {
+            "lat_min": 40.58659,
+            "lat_max": 40.59927124734505,
+            "lon_min": -73.80324,
+            "lon_max": -73.78667
+        },
+        "Astoria": {
+            "lat_min": 40.75397,
+            "lat_max": 40.7767,
+            "lon_min": -73.93602,
+            "lon_max": -73.90307
+        },
+        "Bay Terrace": {
+            "lat_min": 40.77769,
+            "lat_max": 40.78797,
+            "lon_min": -73.79464163552773,
+            "lon_max": -73.77856
+        },
+        "Bayside": {
+            "lat_min": 40.74727095653911,
+            "lat_max": 40.77907,
+            "lon_min": -73.77776,
+            "lon_max": -73.75366199999999
+        },
+        "Bayswater": {
+            "lat_min": 40.60107,
+            "lat_max": 40.61245377994214,
+            "lon_min": -73.77046,
+            "lon_max": -73.75635
+        },
+        "Belle Harbor": {
+            "lat_min": 40.57468,
+            "lat_max": 40.58116,
+            "lon_min": -73.85603,
+            "lon_max": -73.84524
+        },
+        "Bellerose": {
+            "lat_min": 40.72415,
+            "lat_max": 40.7397734,
+            "lon_min": -73.73872,
+            "lon_max": -73.71182221830068
+        },
+        "Breezy Point": {
+            "lat_min": 40.56649,
+            "lat_max": 40.56822,
+            "lon_min": -73.87111,
+            "lon_max": -73.86894
+        },
+        "Briarwood": {
+            "lat_min": 40.70455,
+            "lat_max": 40.71589,
+            "lon_min": -73.8235,
+            "lon_max": -73.80336
+        },
+        "Cambria Heights": {
+            "lat_min": 40.68238912844448,
+            "lat_max": 40.70302884769126,
+            "lon_min": -73.74945018688435,
+            "lon_max": -73.72636
+        },
+        "College Point": {
+            "lat_min": 40.77246931492952,
+            "lat_max": 40.7927,
+            "lon_min": -73.8578006853152,
+            "lon_max": -73.83217
+        },
+        "Corona": {
+            "lat_min": 40.73656,
+            "lat_max": 40.75142234580493,
+            "lon_min": -73.86697,
+            "lon_max": -73.85193
+        },
+        "Ditmars Steinway": {
+            "lat_min": 40.76731,
+            "lat_max": 40.78339668265271,
+            "lon_min": -73.92417,
+            "lon_max": -73.8890984
+        },
+        "Douglaston": {
+            "lat_min": 40.76678,
+            "lat_max": 40.77136,
+            "lon_min": -73.74813,
+            "lon_max": -73.74069
+        },
+        "East Elmhurst": {
+            "lat_min": 40.75505,
+            "lat_max": 40.77132,
+            "lon_min": -73.89974,
+            "lon_max": -73.86183927006186
+        },
+        "Edgemere": {
+            "lat_min": 40.59341982423065,
+            "lat_max": 40.59787,
+            "lon_min": -73.77884061907577,
+            "lon_max": -73.76881906427418
+        },
+        "Elmhurst": {
+            "lat_min": 40.72737,
+            "lat_max": 40.74815,
+            "lon_min": -73.89112,
+            "lon_max": -73.86554
+        },
+        "Far Rockaway": {
+            "lat_min": 40.59226266506976,
+            "lat_max": 40.60671207460902,
+            "lon_min": -73.76356,
+            "lon_max": -73.74134
+        },
+        "Flushing": {
+            "lat_min": 40.72211,
+            "lat_max": 40.77330869636921,
+            "lon_min": -73.83696,
+            "lon_max": -73.78644
+        },
+        "Forest Hills": {
+            "lat_min": 40.70397,
+            "lat_max": 40.73653,
+            "lon_min": -73.8568,
+            "lon_max": -73.83307
+        },
+        "Fresh Meadows": {
+            "lat_min": 40.72795005551905,
+            "lat_max": 40.75247,
+            "lon_min": -73.792896,
+            "lon_max": -73.77779232804619
+        },
+        "Glendale": {
+            "lat_min": 40.69266919103295,
+            "lat_max": 40.70651,
+            "lon_min": -73.8976,
+            "lon_max": -73.85719036844313
+        },
+        "Hollis": {
+            "lat_min": 40.70753,
+            "lat_max": 40.71663,
+            "lon_min": -73.76936,
+            "lon_max": -73.75437
+        },
+        "Holliswood": {
+            "lat_min": 40.72199,
+            "lat_max": 40.72358,
+            "lon_min": -73.77458,
+            "lon_max": -73.76795
+        },
+        "Howard Beach": {
+            "lat_min": 40.64797805706044,
+            "lat_max": 40.67397,
+            "lon_min": -73.86104,
+            "lon_max": -73.82865
+        },
+        "Jackson Heights": {
+            "lat_min": 40.74684,
+            "lat_max": 40.75786,
+            "lon_min": -73.89718,
+            "lon_max": -73.85321
+        },
+        "Jamaica": {
+            "lat_min": 40.66717,
+            "lat_max": 40.71197,
+            "lon_min": -73.81384792973266,
+            "lon_max": -73.76161843917885
+        },
+        "Jamaica Estates": {
+            "lat_min": 40.71345,
+            "lat_max": 40.72607,
+            "lon_min": -73.8076,
+            "lon_max": -73.77634
+        },
+        "Jamaica Hills": {
+            "lat_min": 40.70918,
+            "lat_max": 40.71727,
+            "lon_min": -73.80465858703825,
+            "lon_max": -73.7935
+        },
+        "Kew Gardens": {
+            "lat_min": 40.70259,
+            "lat_max": 40.71385,
+            "lon_min": -73.83603,
+            "lon_max": -73.82000284424488
+        },
+        "Kew Gardens Hills": {
+            "lat_min": 40.71673,
+            "lat_max": 40.73497,
+            "lon_min": -73.829,
+            "lon_max": -73.81048
+        },
+        "Laurelton": {
+            "lat_min": 40.66723,
+            "lat_max": 40.68495,
+            "lon_min": -73.75392,
+            "lon_max": -73.72947
+        },
+        "Little Neck": {
+            "lat_min": 40.77074719568195,
+            "lat_max": 40.77208,
+            "lon_min": -73.73429,
+            "lon_max": -73.7309687171171
+        },
+        "Long Island City": {
+            "lat_min": 40.7349,
+            "lat_max": 40.76667,
+            "lon_min": -73.96259,
+            "lon_max": -73.91782
+        },
+        "Maspeth": {
+            "lat_min": 40.71392,
+            "lat_max": 40.74003,
+            "lon_min": -73.91994,
+            "lon_max": -73.8906776
+        },
+        "Middle Village": {
+            "lat_min": 40.70792376908032,
+            "lat_max": 40.72367,
+            "lon_min": -73.89969,
+            "lon_max": -73.86837
+        },
+        "Neponsit": {
+            "lat_min": 40.56935,
+            "lat_max": 40.56948,
+            "lon_min": -73.86156,
+            "lon_max": -73.85941
+        },
+        "Ozone Park": {
+            "lat_min": 40.66701,
+            "lat_max": 40.68953213646429,
+            "lon_min": -73.8623,
+            "lon_max": -73.83203
+        },
+        "Queens Village": {
+            "lat_min": 40.70285,
+            "lat_max": 40.7281508329874,
+            "lon_min": -73.75546,
+            "lon_max": -73.728269
+        },
+        "Rego Park": {
+            "lat_min": 40.7175862,
+            "lat_max": 40.73582,
+            "lon_min": -73.86947,
+            "lon_max": -73.85275
+        },
+        "Richmond Hill": {
+            "lat_min": 40.67839,
+            "lat_max": 40.70362,
+            "lon_min": -73.84717,
+            "lon_max": -73.81036
+        },
+        "Ridgewood": {
+            "lat_min": 40.69314,
+            "lat_max": 40.71267003392066,
+            "lon_min": -73.91895968454364,
+            "lon_max": -73.89358
+        },
+        "Rockaway Beach": {
+            "lat_min": 40.5834,
+            "lat_max": 40.59135,
+            "lon_min": -73.81791,
+            "lon_max": -73.8010327
+        },
+        "Rosedale": {
+            "lat_min": 40.65092,
+            "lat_max": 40.68256349469537,
+            "lon_min": -73.75115,
+            "lon_max": -73.72543
+        },
+        "South Ozone Park": {
+            "lat_min": 40.66341,
+            "lat_max": 40.68245,
+            "lon_min": -73.82737,
+            "lon_max": -73.78960002994705
+        },
+        "Springfield Gardens": {
+            "lat_min": 40.65687,
+            "lat_max": 40.6908,
+            "lon_min": -73.7795,
+            "lon_max": -73.747
+        },
+        "St. Albans": {
+            "lat_min": 40.685,
+            "lat_max": 40.70884,
+            "lon_min": -73.7817,
+            "lon_max": -73.74761
+        },
+        "Sunnyside": {
+            "lat_min": 40.73352,
+            "lat_max": 40.74922,
+            "lon_min": -73.93492,
+            "lon_max": -73.9092
+        },
+        "Whitestone": {
+            "lat_min": 40.77483,
+            "lat_max": 40.79886,
+            "lon_min": -73.8245608,
+            "lon_max": -73.80177
+        },
+        "Woodhaven": {
+            "lat_min": 40.6852467,
+            "lat_max": 40.69887,
+            "lon_min": -73.86741,
+            "lon_max": -73.8484
+        },
+        "Woodside": {
+            "lat_min": 40.73973083496094,
+            "lat_max": 40.756944,
+            "lon_min": -73.91201,
+            "lon_max": -73.89083862304688
+        }
+    },
+    "Staten Island": {
+        "Arden Heights": {
+            "lat_min": 40.54652,
+            "lat_max": 40.55427316280584,
+            "lon_min": -74.17551,
+            "lon_max": -74.17054565920893
+        },
+        "Arrochar": {
+            "lat_min": 40.58541,
+            "lat_max": 40.59787,
+            "lon_min": -74.07964,
+            "lon_max": -74.06296
+        },
+        "Bay Terrace, Staten Island": {
+            "lat_min": 40.56323040118686,
+            "lat_max": 40.56323040118686,
+            "lon_min": -74.14484205446071,
+            "lon_max": -74.14484205446071
+        },
+        "Bull's Head": {
+            "lat_min": 40.60394,
+            "lat_max": 40.6174494764274,
+            "lon_min": -74.16976,
+            "lon_max": -74.1577879445174
+        },
+        "Castleton Corners": {
+            "lat_min": 40.61066,
+            "lat_max": 40.62557,
+            "lon_min": -74.13079,
+            "lon_max": -74.1122276
+        },
+        "Chelsea, Staten Island": {
+            "lat_min": 40.59598,
+            "lat_max": 40.59598,
+            "lon_min": -74.18478,
+            "lon_max": -74.18478
+        },
+        "Clifton": {
+            "lat_min": 40.61372,
+            "lat_max": 40.62578,
+            "lon_min": -74.08728,
+            "lon_max": -74.07205
+        },
+        "Concord": {
+            "lat_min": 40.60035,
+            "lat_max": 40.60531,
+            "lon_min": -74.09103,
+            "lon_max": -74.07337
+        },
+        "Dongan Hills": {
+            "lat_min": 40.58150303178944,
+            "lat_max": 40.585888206475566,
+            "lon_min": -74.09653859546295,
+            "lon_max": -74.08358113620754
+        },
+        "Eltingville": {
+            "lat_min": 40.53547,
+            "lat_max": 40.5462467,
+            "lon_min": -74.1629203,
+            "lon_max": -74.149
+        },
+        "Emerson Hill": {
+            "lat_min": 40.6007811,
+            "lat_max": 40.60835,
+            "lon_min": -74.14388,
+            "lon_max": -74.1165
+        },
+        "Fort Wadsworth": {
+            "lat_min": 40.59324,
+            "lat_max": 40.59324,
+            "lon_min": -74.0608,
+            "lon_max": -74.0608
+        },
+        "Graniteville": {
+            "lat_min": 40.61887,
+            "lat_max": 40.6251,
+            "lon_min": -74.16368230059396,
+            "lon_max": -74.14987
+        },
+        "Grant City": {
+            "lat_min": 40.57477499874691,
+            "lat_max": 40.5801817,
+            "lon_min": -74.11123378559488,
+            "lon_max": -74.1025004
+        },
+        "Great Kills": {
+            "lat_min": 40.54046,
+            "lat_max": 40.56071,
+            "lon_min": -74.16579936905003,
+            "lon_max": -74.14322
+        },
+        "Grymes Hill": {
+            "lat_min": 40.61169,
+            "lat_max": 40.61887,
+            "lon_min": -74.09318,
+            "lon_max": -74.08846
+        },
+        "Howland Hook": {
+            "lat_min": 40.62561,
+            "lat_max": 40.63018,
+            "lon_min": -74.17485,
+            "lon_max": -74.16863
+        },
+        "Huguenot": {
+            "lat_min": 40.53894,
+            "lat_max": 40.541747690954914,
+            "lon_min": -74.17101074574396,
+            "lon_max": -74.16442
+        },
+        "Lighthouse Hill": {
+            "lat_min": 40.57530614654444,
+            "lat_max": 40.57716,
+            "lon_min": -74.14087,
+            "lon_max": -74.13904392238531
+        },
+        "Mariners Harbor": {
+            "lat_min": 40.62663377476756,
+            "lat_max": 40.641517343162135,
+            "lon_min": -74.16992535319697,
+            "lon_max": -74.1458344114562
+        },
+        "Midland Beach": {
+            "lat_min": 40.57303,
+            "lat_max": 40.5778184,
+            "lon_min": -74.10468258807194,
+            "lon_max": -74.08528
+        },
+        "New Brighton": {
+            "lat_min": 40.63601,
+            "lat_max": 40.644470411631225,
+            "lon_min": -74.09445,
+            "lon_max": -74.08768
+        },
+        "New Dorp": {
+            "lat_min": 40.56853,
+            "lat_max": 40.56853,
+            "lon_min": -74.11843,
+            "lon_max": -74.11843
+        },
+        "New Dorp Beach": {
+            "lat_min": 40.5597,
+            "lat_max": 40.56901827546321,
+            "lon_min": -74.10441,
+            "lon_max": -74.0959792805445
+        },
+        "New Springville": {
+            "lat_min": 40.58325,
+            "lat_max": 40.59274,
+            "lon_min": -74.16178,
+            "lon_max": -74.15221
+        },
+        "Oakwood": {
+            "lat_min": 40.56052,
+            "lat_max": 40.5642241,
+            "lon_min": -74.1289,
+            "lon_max": -74.1173663
+        },
+        "Port Richmond": {
+            "lat_min": 40.62764,
+            "lat_max": 40.6381205,
+            "lon_min": -74.14578,
+            "lon_max": -74.1296
+        },
+        "Prince's Bay": {
+            "lat_min": 40.51707,
+            "lat_max": 40.53125,
+            "lon_min": -74.21514,
+            "lon_max": -74.19613
+        },
+        "Randall Manor": {
+            "lat_min": 40.6288717,
+            "lat_max": 40.64259420516417,
+            "lon_min": -74.12704,
+            "lon_max": -74.0951
+        },
+        "Rosebank": {
+            "lat_min": 40.61185,
+            "lat_max": 40.61726798609117,
+            "lon_min": -74.07365,
+            "lon_max": -74.0671
+        },
+        "Rossville": {
+            "lat_min": 40.545464219738165,
+            "lat_max": 40.55001,
+            "lon_min": -74.19636312872171,
+            "lon_max": -74.19381
+        },
+        "Shore Acres": {
+            "lat_min": 40.60442228621638,
+            "lat_max": 40.61441538611241,
+            "lon_min": -74.07541,
+            "lon_max": -74.0644238482297
+        },
+        "Silver Lake": {
+            "lat_min": 40.6176159,
+            "lat_max": 40.63133,
+            "lon_min": -74.10403129971314,
+            "lon_max": -74.09559
+        },
+        "South Beach": {
+            "lat_min": 40.5828400279813,
+            "lat_max": 40.5960031,
+            "lon_min": -74.0924974,
+            "lon_max": -74.08238064119307
+        },
+        "St. George": {
+            "lat_min": 40.63727809906922,
+            "lat_max": 40.64816,
+            "lon_min": -74.08756,
+            "lon_max": -74.07789
+        },
+        "Stapleton": {
+            "lat_min": 40.62573,
+            "lat_max": 40.63359,
+            "lon_min": -74.08415,
+            "lon_max": -74.07564
+        },
+        "Todt Hill": {
+            "lat_min": 40.58410263709194,
+            "lat_max": 40.60577,
+            "lon_min": -74.10917352380945,
+            "lon_max": -74.09325415402114
+        },
+        "Tompkinsville": {
+            "lat_min": 40.62556,
+            "lat_max": 40.6376,
+            "lon_min": -74.09488,
+            "lon_max": -74.0784
+        },
+        "Tottenville": {
+            "lat_min": 40.5003663,
+            "lat_max": 40.5201,
+            "lon_min": -74.251907,
+            "lon_max": -74.23091
+        },
+        "West Brighton": {
+            "lat_min": 40.62534,
+            "lat_max": 40.6347,
+            "lon_min": -74.12369,
+            "lon_max": -74.09754
+        },
+        "Westerleigh": {
+            "lat_min": 40.61545022995936,
+            "lat_max": 40.62121,
+            "lon_min": -74.13676,
+            "lon_max": -74.13207
+        },
+        "Willowbrook": {
+            "lat_min": 40.59873352572224,
+            "lat_max": 40.59919,
+            "lon_min": -74.13389,
+            "lon_max": -74.13179959747025
+        },
+        "Woodrow": {
+            "lat_min": 40.54569,
+            "lat_max": 40.54750859060909,
+            "lon_min": -74.19095,
+            "lon_max": -74.19027148608264
+        }
+    }
+}
